@@ -1,73 +1,64 @@
 ---
 title: home
 banner:
-  title: Amet donec nullam fermentum
-  subtitle: Sed magna in pharetra ultricies dolor sit consequat magna.
   actions:
-    - label: Learn More
-      url: /no-sidebar
+    - is_huge: true
       is_primary: false
       is_scrolly: false
-      is_huge: true
+      label: Learn More
+      url: /no-sidebar
+  subtitle: >-
+    IASSIST is an international organization of professionals working in and
+    with information technology and data services to support research and
+    teaching in the social sciences.
+
+
+    Its 300(?) members are from a variety of workplaces, including data
+    archives, statistical agencies, research centers, libraries, academic
+    departments, government departments, and non-profit organizations.
+  title: The Data People
 sections:
-  - type: features
-    section_id: features
+  - component: features.html
     features:
-      - title: Integer vitae consequat sed magna feugiat
+      - description: Read our journal
         icon:
           enabled: true
           icon: fa-area-chart
           style: style1
-        description: >-
-          Lorem ipsum dolor sit amet interdum mollis sapien. Sed ac risus.
-          Phasellus lacinia, ullamcorper laoreet, lectus arcu pulvinar lorem
-          ipsum interdum sed tempus sagittis lorem feugiat. In fringilla diet
-          consectetur. Morbi libero orci, consectetur in odio maximus felis.
-      - title: Phasellus libero eu sed augue gravida
+        title: IASSIST Quarterly
+      - description: Need help? Look here!
         icon:
           enabled: true
           icon: fa-pie-chart
           style: style2
-        description: >-
-          Lorem ipsum dolor sit amet interdum mollis sapien. Sed ac risus.
-          Phasellus lacinia, ullamcorper laoreet, lectus arcu pulvinar lorem
-          ipsum interdum sed tempus sagittis lorem feugiat. In fringilla diet
-          consectetur. Morbi libero orci, consectetur in odio maximus felis.
-      - title: Lacus ultricies sagittis mi dui dapibus
+        title: Resources
+      - description: Because you are addicted to social media.
         icon:
           enabled: true
           icon: fa-cube
           style: style3
-        description: >-
-          Lorem ipsum dolor sit amet interdum mollis sapien. Sed ac risus.
-          Phasellus lacinia, ullamcorper laoreet, lectus arcu pulvinar lorem
-          ipsum interdum sed tempus sagittis lorem feugiat. In fringilla diet
-          consectetur. Morbi libero orci, consectetur in odio maximus felis.
-    component: features.html
-  - type: cta
-    section_id: cta
-    title: Ultrices ante sagittis nunc senectus libero netus
-    actions:
-      - label: How it works
-        url: /contact
-        is_primary: false
+        title: Community
+    section_id: features
+    type: features
+  - actions:
+      - is_primary: false
         is_scrolly: false
-    text: >-
-      Lorem ipsum dolor sit amet interdum mollis sapien. Sed ac risus. Phasellus
-      lacinia, ullamcorper laoreet, lectus arcu pulvinar lorem ipsum interdum
-      sed tempus sagittis lorem feugiat. In fringilla diet consectetur. Morbi
-      libero orci, consectetur in odio maximus felis. Lorem ipsum ullamcorper
-      laoreet, lectus arcu pulvinar lorem ipsum interdum sed tempus sagittis
-      lorem feugiat. In fringilla diet consectetur.
+        label: More Info
+        url: /contact
     component: cta.html
-  - type: posts
+    section_id: cta
+    text: We'll be in Sweden in 2020! Come join us!
+    title: IASSIST Annual 2020
+    type: cta
+  - component: posts.html
     section_id: posts
-    title: Convallis amet interdum
-    subtitle: Sed magna in pharetra ultricies dolor sit amet consequat adipiscing lorem.
-    component: posts.html
+    subtitle: The Community blog and information service.
+    title: iBlog
+    type: posts
 menu:
   main:
     name: Home
     weight: 1
 layout: home
 ---
+
