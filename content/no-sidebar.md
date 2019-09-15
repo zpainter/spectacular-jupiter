@@ -1,5 +1,5 @@
 ---
-title: No Sidebar
+title: About
 subtitle: Sed magna in pharetra ultricies dolor sit amet consequat adipiscing lorem.
 content_img:
   enabled: true
