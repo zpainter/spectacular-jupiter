@@ -12,19 +12,18 @@ contact_methods:
   methods_col1:
     - icon: fa-map-marker
       text: |-
-        Untitled Corp  
-        1234 Fictional Road  
-        Suite 5432  
-        Nashville, TN 00000
+        Some Street
+        Some City
+        Some Country
       title: Address
       type: contact_with_text
   methods_col2:
     - icon: fa-phone
-      text: (000) 000-0000
+      text: +1 (281) 330-8004
       title: Phone
       type: contact_with_text
     - icon: fa-envelope-o
-      text: information@untitled.tld
+      text: email@iassist.com
       title: Email
       type: contact_with_link
       url: '#'
